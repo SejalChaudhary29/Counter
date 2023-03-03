@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image:url(./bg1.jpg);
+ 
+  background-position: center;
+  background-size: 70%;
+ 
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-attachment: fixed;
+ background-blend-mode: lighten;
+}
+.navbar{
+  background-color:transparent;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px #d9e8f4;
+}
+.navbar>h2{
+  color: #e4ecf2;
+  letter-spacing: 4px;
+  margin-left: 132px;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.list li {
+  list-style: none;
+  margin: 2px 8px;
+}
+li a {
+  text-decoration: none;
+  color: #86c2e8;
+  font-weight: 500;
+
+}
+a:hover{
+  background: linear-gradient(rgba(22, 153, 234, 0.589),rgba(217, 227, 229, 0.5));
+  padding: 2px 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+color: #fff;
+  border-radius: 15px;
+
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.container {
+  width: 400px;
+  height: 35vh;
+  background-color: transparent;
+  border-radius: 50px;
+  border-bottom: 2px solid black;
+  
+}
+.container > h1 {
+  margin: -20px;
+  padding: 16px 12px;
+  letter-spacing: 2px;
+  color: #14131f;
+  text-align: center;
+  background-color: #ebebf2;
+  box-shadow: 2px 2px 5px #d9e8f4;
+  border-radius: 4px;
+  border-bottom: 1px solid black;
+}
+.container > span {
+  display: inline-block;
+  margin-top: 85px;
+  margin-left: 190px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.button {
+  margin: 55px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btnop {
+  margin: 0 30px;
+  padding: 10px 50px;
+  background-color: #ffffff;
+  color: #090080;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #000000;
+  box-shadow: 2px 2px 5px #d9e8f4;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 2px;
+ 
+}
+.btnop:hover{
+    font-size: 12px;
+ color: #000000;
+ font-weight: 800;
+font-style: italic;
+}
